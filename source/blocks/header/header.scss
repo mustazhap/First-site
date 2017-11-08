@@ -1,0 +1,148 @@
+.header{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+}
+
+.top_h{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.logo{
+	display: flex;
+	flex-direction: column;
+	img{
+		width: 320px;
+		height: 58px;
+	}
+
+}
+.callback{
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.phone_numbers{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 20px;
+
+}
+
+.call {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	
+	&:before{
+		content: "";
+		display: inline-block;
+    	margin-right: 15px;
+    	width: 18px;
+    	height: 18px;
+    	background: url('../img/phone.png') no-repeat 0 0;
+		background-size: 100%;
+	}
+}
+
+.social_links{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 20px;
+
+	a{
+		text-decoration: none;
+		background: $saebiz	;
+		padding: 3px 15px;
+		border-radius: 10px;
+		color: white;
+	}
+}
+
+.social {
+	
+	a{	
+		background: none;
+		padding: 0;
+		margin-right: 11px;
+	}
+}
+
+.vk_group{
+	img{
+	width: 190px;
+	height: 55px;
+	margin-right: 10px;
+}
+}
+
+.basket{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: $light-pink;
+	border-radius: 30px;
+	padding: 20px 25px;
+	img{
+		width: 39px;
+		height: 39px;
+		margin-right: 10px;
+
+	}
+}
+
+.menu{
+	position: relative;
+	display: flex;
+	background: $pink;
+	border-radius: 4px;
+	height: 40px;
+	align-items: center;
+	padding-left: 20px;
+	justify-content: space-between;
+	padding-right: 20px;
+	margin-bottom: 20px;
+
+}
+
+.ule{
+	width: 62%;
+}	
+
+.uno_menu{
+	padding: 3px 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+	&:hover, &:active{
+		background: white;
+		color: $pink;
+	}
+}
+
+.search{
+	input{
+		border-radius: 20px;
+		padding: 0 20px;
+		line-height: 20px;
+	}
+
+	img{
+		position: absolute;
+		top: 13px;
+		right: 28px;
+		width: 12px;
+		height: 12px;
+	}
+}
+

@@ -1,0 +1,34 @@
+.cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	img{
+		width: 41px;
+		height: 46px;
+	}
+}
+
+.ramka{
+	border: 1px solid $pink;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.in_card{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	background: $light_pink;
+	width: 350px;
+	height: 50px;
+	padding: 10px 10px;
+
+	a{
+		text-transformation: italic;
+		color: black;
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+
+}

@@ -1,0 +1,56 @@
+@import "variables.scss";
+@import "_index.scss";
+@import "plugins.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/second_part/second_part.scss";
+
+
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: $pink url('../img/top_bg.png') top center;
+	margin: 0;
+	padding: 0;
+
+
+}
+.top_block-wrap{
+	display: flex;
+	width: 1300px;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+}
+
+.mem {
+	padding:15px 50px;
+
+	}
+
+.top_link{
+		
+		margin-left: 10px;
+		padding: 3px 15px;
+		border-radius: 10px;
+		background: $pink;
+		color: white;
+		text-decoration: none;
+		
+	}
+
+.wrapper{
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	background: white;
+	padding: 30px 50px;
+	flex-direction: column;
+}
+
+
+
+

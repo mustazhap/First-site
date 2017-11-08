@@ -1,0 +1,82 @@
+.second_part {
+}
+
+.menu{
+	position: relative;
+	display: flex;
+	background: $pink;
+	border-radius: 4px;
+	height: 40px;
+	align-items: center;
+	padding-left: 20px;
+	justify-content: space-between;
+	padding-right: 20px;
+	margin-bottom: 20px;
+
+}
+
+.ule{
+	width: 62%;
+}	
+
+.uno_menu{
+	padding: 3px 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+	&:hover, &:active{
+		background: white;
+		color: $pink;
+	}
+}
+
+.search{
+	input{
+		border-radius: 20px;
+		padding: 0 20px;
+		line-height: 20px;
+	}
+
+	img{
+		position: absolute;
+		top: 13px;
+		right: 28px;
+		width: 12px;
+		height: 12px;
+	}
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	img{
+		width: 41px;
+		height: 46px;
+	}
+}
+
+.ramka{
+	border: 1px solid $pink;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.in_card{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	background: $light_pink;
+	width: 350px;
+	height: 50px;
+	padding: 10px 10px;
+
+	a{
+		text-transformation: italic;
+		color: black;
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+
+}
